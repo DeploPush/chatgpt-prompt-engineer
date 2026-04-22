@@ -1,33 +1,27 @@
 # ChatGPT Prompt Engineer
-Get way better results from AI
+> Get way better results from AI
 
 ---
 
-## Setup
+🚀 Get running in 60 seconds
 
-**1. Install dependencies**
+📦 Install
 
-Open your terminal, navigate to this folder, and run:
+    Mac / Linux:
 
-Mac / Linux:
+        python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+    
+    Windows:
+    
+        python -m venv venv && .\venv\Scripts\activate && pip install -r requirements.txt
+    
+    ▶️ Start
 
-    python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
-
-Windows:
-
-    python -m venv venv && .\venv\Scripts\activate && pip install -r requirements.txt
-
-**2. Start the app**
-
-    uvicorn main:app --reload
-
-Then open http://localhost:8000 in your browser.
-
-**3. Enter your API key**
-
-The app will ask for your Groq API key on first run.
-Get a free key at https://console.groq.com
-
----
-
-Built with Deplo · Powered by Groq
+        uvicorn main:app --reload
+    
+    🌐 Open → http://localhost:8000
+    
+    🔑 API key — the app might ask on first run. Get one free at https://console.groq.com
+    
+    Built with [Deplo](https://deplo.pro) · Powered by Groq
+    
